@@ -1,0 +1,13 @@
+<a href="/" class="btn btn-success">Volver</a>
+
+<h1>Productos</h1>
+<ul>
+    {{#each .}}
+            {{#if title}}
+            <li>{{title}}</li>
+            <li>${{price}}</li>
+            <li>{{thumbnail}}</li>
+            <br>
+            {{/if}}       
+    {{/each}}
+</ul>

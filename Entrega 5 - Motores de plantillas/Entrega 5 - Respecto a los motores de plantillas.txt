@@ -1,0 +1,5 @@
+A quien corresponda:
+Como conclusion, a mi parecer el motor EJS es el mejor, pricipalmente por que "respeta" el pseudo-html y por otro lado por que es el mas sencillo de integrar en un proyecto JS
+sin tener que aprender lenguajes o sub-lenguajes (como ser el caso de PUG y Handlebars).
+
+Saludos

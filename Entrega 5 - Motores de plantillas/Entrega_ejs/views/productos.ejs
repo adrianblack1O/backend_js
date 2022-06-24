@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<body>
+    <div class="container">
+    <a href="/" class="btn btn-success">Volver</a>
+    <h1>Productos:</h1>
+        <% productos.forEach((producto)=> { %>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src=<%= producto.thumbnail %> alt= "Imagen de <%= producto.title %>">
+                    <div class="card-body">
+                      <h3 class="card-title"><%= producto.title %></h3>
+                      <p>Precio: $ <%= producto.price %></p>
+                    </div>
+                  </div>
+            <hr />
+        <% }) %>
+        </div>
+</body>
