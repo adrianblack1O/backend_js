@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 6</title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <h1>Productos</h1>
+    <h2>Alta de productos:</h2>
+    <div>
+        <label for="title">Producto:</label>
+        <input id="title" type="text" /><br><br>
+        <label for="price">Precio($):</label>
+        <input id="price" type="number" /><br><br>
+        <label for="thumb">URL del thumbnail:</label>
+        <input id="thumb" type="text" /><br><br>
+    <button id="button_p">Cargar</button>
+    </div>
+    <p id="p_list"></p>
+
+    <h2>Atencion al cliente:</h2>
+    <div>
+        <label for="nickname">Nombre y Apellido:</label>
+        <input id="nickname" type="email" /><br><br>
+        <label for="mensaje">Mensaje:</label>
+        <input id="mensaje" type="text" /><br><br>
+    <button id="button_m">Enviar</button>
+    </div>
+    <p id="m_list"></p>
+    <script src="/index.js"></script>
+</body>
+</html>
