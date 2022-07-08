@@ -1,0 +1,28 @@
+{
+  "name": "backend_js",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianblack1O/backend_js"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianblack1O/backend_js/issues"
+  },
+  "homepage": "https://github.com/adrianblack1O/backend_js#readme",
+  "keywords": [],
+  "description": ""
+}
